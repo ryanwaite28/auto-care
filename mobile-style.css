@@ -1,0 +1,50 @@
+/* New Mobile Style */
+
+@media only screen and (max-width: 700px) {
+
+	#topbar {
+		height: auto;
+		min-height: 95px;
+	}
+
+	#head-text {
+	  width: 100%;
+		font-size: 18px;
+		height: 50px;
+	  line-height: 50px;
+	}
+
+	#top-links {
+	  width: 85%;
+		display: none;
+		margin: auto;
+		float: none;
+		height: auto;
+	}
+	#top-links li {
+	  display: block;
+	}
+
+	#drop-arrow {
+	  display: block;
+	}
+
+	#grand-container {
+	  padding-top: 95px;
+	}
+
+	.banner-text {
+	  width: 320px;
+		font-size: 18px;
+	  padding: 15px;
+	  max-width: 100%;
+	  margin: 0px;
+	  left: 50%;
+	  margin-left: -200px;
+	}
+
+	.padd {
+	  padding: 15px;
+	}
+
+}

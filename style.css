@@ -1,0 +1,128 @@
+/* New Style */
+body {
+  overflow-x: hidden;
+}
+#topbar {
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid black;
+  z-index: 1000;
+  background-color: white;
+}
+#inner-div {
+    width: 875px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+#head-text {
+  margin: 0px;
+  width: 375px;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+  float: left;
+  display: inline;
+  text-align: center;
+  font-size: 26px;
+}
+
+#top-links {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  height: 80px;
+  float: right;
+  width: auto;
+  z-index: -1;
+}
+#top-links li {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+#top-links li a {
+  text-decoration: none;
+  color: black;
+}
+#top-links li:hover {
+  background-color: black;
+}
+#top-links li:hover a {
+  color: white;
+}
+#top-links li a:hover {
+  color: red;
+}
+
+#drop-arrow {
+  display: none;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+#drop-arrow:hover {
+  background-color: grey;
+}
+
+#grand-container {
+  padding-top: 80px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#banner-1 {
+  background-image: url('img/img-3.jpg');
+  height: 75vh;
+  position: relative;
+}
+
+.bt-con {
+  width: 100%;
+}
+
+.banner-text {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 35px;
+  width: 425px;
+  padding: 15px;
+  max-width: 100%;
+  margin: 0px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.pres-img {
+  width: 625px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  max-height: 75vh;
+}
+
+.padd {
+  padding: 35px;
+}
+
+.txt-1 {
+  padding-top: 10%;
+  line-height: 40px;
+}
+
+.brd-1 {
+  border: 1px solid black;
+}
+
+.brd-2 {
+  border-bottom: 1px solid black;
+}
